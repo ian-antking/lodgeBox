@@ -13,6 +13,9 @@ finished/sue/*
 finished/kat/*
 !finished/kat/.gitkeep
 
+finished/martina/*
+!finished/martina/.gitkeep
+
 worksheets/Art/*
 !worksheets/Art/.gitkeep
 
