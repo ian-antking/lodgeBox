@@ -1,0 +1,140 @@
+:root{
+	--main-bg-color: #eaebed;
+	--text-color: #313e50;
+	--bubble-one-color: #006494;
+	--bubble-two-color: #297373;
+	--highlight-color: #ff8552;
+}
+
+
+body{
+	background-color: var(--main-bg-color);
+	margin: 0px;
+	
+}
+
+.banner{
+	color: var(--highlight-color);
+	background-color: var(--bubble-one-color);
+	font-family: 'Open Sans', sans-serif;
+	padding: 1em;
+
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--highlight-color);
+	
+}
+
+.bubble-two{
+	flex-basis: 100%;
+	background-color: var(--bubble-two-color);
+	font-family: 'Open Sans', sans-serif;
+	margin: 1em;
+	padding: 2em;
+	font-size: 2em;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+}	
+
+.bubble-one{
+	flex-basis: 100%;
+	background-color: var(--bubble-one-color);
+	font-family: 'Open Sans', sans-serif;
+	margin: 1em;
+	padding: 2em;
+	font-size: 2em;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+#index .bubble-one:hover{
+	background-color: var(--bubble-two-color);
+	color: var(--main-bg-color);
+}
+
+#worksheet-bubble{
+	margin-bottom:0;
+	padding: 1em;
+
+}
+
+a{
+	color: var(--highlight-color);
+	text-decoration:none;
+}
+
+
+
+form{
+	background-color: #007ab3;
+	
+	border-radius: 10px;
+	padding: 1em;
+	display: inline-block;
+	width: 50%;
+}
+
+form div{
+	padding: 1em;
+	
+}
+
+fieldset{
+	border-radius: 10px;
+	border: 1px solid var(--main-bg-color); 
+}
+
+#form-bubble{
+	padding-top: 0.5em;
+	font-size: 1em;
+}
+
+input[type='radio']{
+	display:inline;
+	vertical-align: middle;	
+
+}
+
+
+input[type='submit']{
+	color: var(--highlight-color);
+	background-color: var(--bubble-one-color);
+	cursor: pointer;
+	border: 1px solid #004666;
+	padding: 1em;
+	border-radius: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	width: 100%;
+}
+
+input[type='submit']:hover{
+	background-color: var(--bubble-two-color);
+	color: var(--main-bg-color);
+}
+
+iframe{
+	height: 500px;
+	width: 100%;
+	background-color: var(--main-bg-color);
+	border: none;
+	border-radius: 10px;
+}
+
+a:hover{
+	color: var(--main-bg-color);
+}
+
+a:visited{
+	color: var(--highlight-color);
+}
+
+label{
+	padding-right: 2em;
+}
