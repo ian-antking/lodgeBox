@@ -56,9 +56,7 @@ body{
 	border-radius: 10px;
 	display: inline-block;
 	text-align: center;
-}
-
-.content .bubble-one:hover{
+}#index .bubble-one:hover{
 	background-color: var(--bubble-two-color);
 	color: var(--main-bg-color);
 }
