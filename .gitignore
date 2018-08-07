@@ -1,0 +1,5 @@
+worksheets/*
+!worksheets/.gitkeep
+
+finished/*
+!finished/.gitkeep
