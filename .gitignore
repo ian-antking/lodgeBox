@@ -1,5 +1,8 @@
 worksheets/*
 !worksheets/.gitkeep
 
-finished/*
-!finished/.gitkeep
+finished/ian/*
+!finished/ian/.gitkeep
+
+finished/helen/*
+!finished/helen/.gitkeep
