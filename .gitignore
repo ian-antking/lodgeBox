@@ -6,3 +6,9 @@ finished/ian/*
 
 finished/helen/*
 !finished/helen/.gitkeep
+
+finished/sue/*
+!finished/sue/.gitkeep
+
+finished/kat/*
+!finished/kat/.gitkeep
