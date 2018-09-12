@@ -18,6 +18,7 @@ body{
 	background-color: var(--bubble-one-color);
 	font-family: 'Open Sans', sans-serif;
 	padding: 1em;
+	width: 100%;
 
 }
 
@@ -31,14 +32,17 @@ body{
 
 .bubble-two{
 	flex-basis: 100%;
-	background-color: var(--bubble-two-color);
+	background-color: var(--bubble-one-color);
 	font-family: 'Open Sans', sans-serif;
+	width: 100%;
 	margin: 1em;
 	padding: 2em;
 	font-size: 2em;
 	border-radius: 10px;
 	display: inline-block;
 	text-align: center;
+	
+
 }	
 
 .bubble-one{
@@ -46,6 +50,7 @@ body{
 	background-color: var(--bubble-one-color);
 	font-family: 'Open Sans', sans-serif;
 	margin: 1em;
+	width: 50%;
 	padding: 2em;
 	font-size: 2em;
 	border-radius: 10px;
@@ -53,7 +58,7 @@ body{
 	text-align: center;
 }
 
-#index .bubble-one:hover{
+.content .bubble-one:hover{
 	background-color: var(--bubble-two-color);
 	color: var(--main-bg-color);
 }
