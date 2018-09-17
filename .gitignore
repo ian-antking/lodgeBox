@@ -1,5 +1,5 @@
-worksheets/*
-!worksheets/.gitkeep
+# worksheets/*
+# !worksheets/.gitkeep
 
 finished/ian/*
 !finished/ian/.gitkeep
@@ -12,3 +12,30 @@ finished/sue/*
 
 finished/kat/*
 !finished/kat/.gitkeep
+
+worksheets/Art/*
+!worksheets/Art/.gitkeep
+
+worksheets/DEAR/*
+!worksheets/DEAR/.gitkeep
+
+worksheets/English/*
+!worksheets/English/.gitkeep
+
+worksheets/History/*
+!worksheets/History/.gitkeep
+
+worksheets/ICT/*
+!worksheets/ICT/.gitkeep
+
+worksheets/Intervention/*
+!worksheets/Intervention/.gitkeep
+
+worksheets/Maths/*
+!worksheets/Maths/.gitkeep
+
+worksheets/PWL/*
+!worksheets/PWL/.gitkeep
+
+worksheets/Science/*
+!worksheets/Science/.gitkeep
