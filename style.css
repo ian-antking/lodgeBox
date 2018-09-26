@@ -45,17 +45,19 @@ body{
 
 }	
 
-.bubble-one{
+.bubble-one, link-bubble{
 	flex-basis: 100%;
 	background-color: var(--bubble-one-color);
 	font-family: 'Open Sans', sans-serif;
 	margin: 1em;
 	width: 50%;
-	padding: 2em;
+	padding: 1.5em;
 	font-size: 2em;
 	border-radius: 10px;
 	display: inline-block;
 	text-align: center;
+
+
 }#index .bubble-one:hover{
 	background-color: var(--bubble-two-color);
 	color: var(--main-bg-color);
@@ -140,4 +142,8 @@ a:visited{
 
 label{
 	padding-right: 2em;
+}
+
+#link_list{
+	width: 50%;
 }
