@@ -1,8 +1,8 @@
 :root{
 	--main-bg-color: #eaebed;
-	--text-color: #313e50;
-	--bubble-one-color: #006494;
-	--bubble-two-color: #297373;
+	--text-color: #315035;
+	--bubble-one-color: #00940c;
+	--bubble-two-color: #387329;
 	--highlight-color: #ff8552;
 }
 
@@ -77,7 +77,7 @@ a{
 
 
 form{
-	background-color: #007ab3;
+	background-color: var(--bubble-two-color);
 	
 	border-radius: 10px;
 	padding: 1em;
@@ -111,7 +111,7 @@ input[type='submit']{
 	color: var(--highlight-color);
 	background-color: var(--bubble-one-color);
 	cursor: pointer;
-	border: 1px solid #004666;
+	border: 1px solid #0c6600;
 	padding: 1em;
 	border-radius: 10px;
 	font-family: 'Open Sans', sans-serif;
