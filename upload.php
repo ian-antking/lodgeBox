@@ -18,8 +18,8 @@
 		<div class='bubble-one'>
 			<?php
 
-			$targetdir = 'finished/'.$_POST['teacher'].'/';
-			$targetfile = $targetdir.$_POST['pupil'].'_'.$_FILES['file']['name'];
+			$targetdir = 'finished/'.$_POST['subject-field'].'/';
+			$targetfile = $targetdir.$_POST['initials-field'].'_'.$_FILES['file']['name'];
 
 			if (!(file_exists($targetfile)) AND move_uploaded_file($_FILES['file']['tmp_name'], $targetfile)){
 				echo '<h1>Your Work has been submitted!</h1><br>';

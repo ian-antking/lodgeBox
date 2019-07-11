@@ -18,55 +18,25 @@
 		<div id="form-bubble" class='bubble-one'>
 			<h1>Submit Work</h1>
 			<form action="upload.php" enctype='multipart/form-data' method='POST'>
+			<div>
+				<label for="initials-field">Your Initials:</label>
+				<input type="text" id="initials-field">
+			</div>
 
-
-			
-				<fieldset>
-				    <legend>Your Name</legend>
-
-				    <input type="radio" value="am" name="pupil" required>
-				    <label for="am">AM</label>
-
-				    <input type="radio" value="bl" name="pupil" required>
-				    <label for="bl">BL</label><br/>
-
-				    <input type="radio" value="lp" name="pupil" required>
-				    <label for="lp">LP</label>
-
-				    <input type="radio" value="lw" name="pupil" required>
-					<label for="lw">LW</label><br/>
-					
-					<input type="radio" value="tb" name="pupil" required>
-				    <label for="tb">TB</label><br/>
-
-					<input type="radio" value="jr" name="pupil" required>
-				    <label for="jr">JR</label><br/>
-
-				</fieldset>
-		
-
-
-
-				<fieldset>
-
-					<legend>Teacher Name</legend>
-
-					<input type="radio" value="helen" name="teacher" required>
-				    <label for="helen">Helen</label>	
-
-					<input type="radio" value="ian" name="teacher" required>
-				    <label for="ian">Ian</label><br/>
-
-					<input type="radio" value="sue" name="teacher" required>
-					<label for="sue">Sue</label><br/>
-					
-					<input type="radio" value="kat" name="teacher" required>
-					<label for="kat">Katherine</label><br/>
-
-					<input type="radio" value="martina" name="teacher" required>
-					<label for="martina">Martina</label><br/>
-					
-				</fieldset>
+			<div>
+				<label for="subject-field">Subject</label>
+				<select id="subject-field">
+					<option value="art">Art</option>
+					<option value="computing">Computing</option>
+					<option value="english">English</option>
+					<option value="history">History</option>
+					<option value="maths">Maths</option>
+					<option value="pshe">PSHE</option>
+					<option value="pwl">PWL</option>
+					<option value="re">RE</option>
+					<option value="science">Science</option>
+				</select>
+			</div>
 
 				<div>
 					<label for='file' id='upload'>Select Your File:</label>
